@@ -1,0 +1,15 @@
+<security>
+    <constraint>
+        <url-pattern> /admin/.*  </url-pattern>
+        <role>admin</role >
+    </constraint>
+    <constraint>
+        <url-pattern> /user.*.do   </url-pattern>
+        <role>admin</role >
+    </constraint>
+    <constraint>
+        <url-pattern> /internal/.*  </url-pattern>
+        <role>user</role >
+        <role>admin</role >
+    </constraint>
+</security>

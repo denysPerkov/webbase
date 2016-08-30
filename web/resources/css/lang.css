@@ -1,0 +1,9 @@
+.lang{
+      float: right;
+      right: 0%;
+      position: relative;
+      border-radius: 5px;
+      padding: 15px;
+      text-align: center;
+      width: 150px;
+}
